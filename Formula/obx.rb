@@ -5,28 +5,28 @@
 class Obx < Formula
   desc "Publish product images and article data to an Open Brand Exchange portal"
   homepage "https://openbrandexchange.com"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.0/obx_darwin_arm64.tar.gz"
-      sha256 "69804b9ca82d57b3fa27fd52303d88dc18378eb86884e91d9782441a61c93c3f"
+      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.1/obx_darwin_arm64.tar.gz"
+      sha256 "1b7abf5d8c1e6d2303d367a51663088f253b996ce979eded0a3dd1d050cf61ee"
     end
     on_intel do
-      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.0/obx_darwin_amd64.tar.gz"
-      sha256 "78206186e5b5dc667c6eddf81c33cbfd73a9aeed534b6cc43308044017a513c5"
+      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.1/obx_darwin_amd64.tar.gz"
+      sha256 "40e5ded6cc8bf2692dd5e698ad980bc262a2617c9c837658f0dac1f9e7018c19"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.0/obx_linux_arm64.tar.gz"
-      sha256 "4544eda5d798a9ba3b50dca8680a2a608dd365c081ba61462d23232a2ac46d2e"
+      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.1/obx_linux_arm64.tar.gz"
+      sha256 "c7f41fc57f23c317a2f56b2ddcfeedba80f3c71433d01bd9fdeb3ca6457143e7"
     end
     on_intel do
-      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.0/obx_linux_amd64.tar.gz"
-      sha256 "04872fb4e76219c7f7fd29e1af72a1cc115947dfb5ed9112858e8105c4516b6f"
+      url "https://github.com/openbrandexchange/obx-go/releases/download/v0.2.1/obx_linux_amd64.tar.gz"
+      sha256 "69dbc87b1da26633c8597af627839ee18c22e8768b1e77610a31ef4389f3ebd4"
     end
   end
 
